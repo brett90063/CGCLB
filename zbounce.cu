@@ -119,7 +119,7 @@ int timesthreashold = 1;
 #if defined(_hpma)
 bool CPUPrefilter[7]={1,1,1,1,1,1,1}; //ccc
 #elif defined(_GPU)
-bool CPUPrefilter[7]={0,0,0,0,0,0,0}; //ccc
+bool CPUPrefilter[7]={0,0,0,0,0,0,0}; //cccc
 #endif
 
 //int hpmamode[21] = {3,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0};
