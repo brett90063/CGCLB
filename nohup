@@ -1,0 +1,497 @@
+numCPU: 32
+
+ blocksNumper =20  
+ threadsperBlock = 128
+id: 0 1 2 3 4 5 6 
+buffer_size = 2560
+bytes = 3768320
+T1 size:32768 
+btsize: 1024
+win_size = 64   btsize = 1024  t2size = 6720 t1size = 32768 
+t1bsize: 65536
+t1csize: 8192
+T1_table_sc: 
+1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 
+t2csize: 6720
+Test T2_char: 
+11111111111111011100011110010101111001011110101010000100000100001110001010001010
+numof64: 4295226855
+popcount_3: 15
+t2bsize: 53760
+counterTest  6720
+t2Loc  0
+Start to read Pattern file!
+End read Pattern file!
+Done for load pattern!
+cudaMallocManaged
+add pattern
+patNumstr.size() :1232
+acsmCompile
+#########################################################################
+# ERROR: You do not seem to have a valid PF_RING ZC 7.3.0.180921
+# license for ens4f1 (MAC 3C:FD:FE:C2:48:19) [Intel 10/40 Gbit i40e family]
+# ERROR: Please get one at http://shop.ntop.org/.
+#########################################################################
+# We're now working in demo mode with packet capture and          
+# transmission limited to 5 minutes
+#########################################################################
+ in: zc:ens4f1@0 out: zc:ens4f0@0
+#########################################################################
+# ERROR: You do not seem to have a valid PF_RING ZC 7.3.0.180921
+# license for ens4f1 (MAC 3C:FD:FE:C2:48:19) [Intel 10/40 Gbit i40e family]
+# ERROR: Please get one at http://shop.ntop.org/.
+#########################################################################
+#########################################################################
+# ERROR: You do not seem to have a valid PF_RING ZC 7.3.0.180921
+# license for ens4f0 (MAC 3C:FD:FE:C2:48:18) [Intel 10/40 Gbit i40e family]
+# ERROR: Please get one at http://shop.ntop.org/.
+#########################################################################
+ in: zc:ens4f1@1 out: zc:ens4f0@1
+#########################################################################
+# ERROR: You do not seem to have a valid PF_RING ZC 7.3.0.180921
+# license for ens4f1 (MAC 3C:FD:FE:C2:48:19) [Intel 10/40 Gbit i40e family]
+# ERROR: Please get one at http://shop.ntop.org/.
+#########################################################################
+#########################################################################
+# ERROR: You do not seem to have a valid PF_RING ZC 7.3.0.180921
+# license for ens4f0 (MAC 3C:FD:FE:C2:48:18) [Intel 10/40 Gbit i40e family]
+# ERROR: Please get one at http://shop.ntop.org/.
+#########################################################################
+ in: zc:ens4f1@2 out: zc:ens4f0@2
+#########################################################################
+# ERROR: You do not seem to have a valid PF_RING ZC 7.3.0.180921
+# license for ens4f1 (MAC 3C:FD:FE:C2:48:19) [Intel 10/40 Gbit i40e family]
+# ERROR: Please get one at http://shop.ntop.org/.
+#########################################################################
+#########################################################################
+# ERROR: You do not seem to have a valid PF_RING ZC 7.3.0.180921
+# license for ens4f0 (MAC 3C:FD:FE:C2:48:18) [Intel 10/40 Gbit i40e family]
+# ERROR: Please get one at http://shop.ntop.org/.
+#########################################################################
+ in: zc:ens4f1@3 out: zc:ens4f0@3
+#########################################################################
+# ERROR: You do not seem to have a valid PF_RING ZC 7.3.0.180921
+# license for ens4f1 (MAC 3C:FD:FE:C2:48:19) [Intel 10/40 Gbit i40e family]
+# ERROR: Please get one at http://shop.ntop.org/.
+#########################################################################
+#########################################################################
+# ERROR: You do not seem to have a valid PF_RING ZC 7.3.0.180921
+# license for ens4f0 (MAC 3C:FD:FE:C2:48:18) [Intel 10/40 Gbit i40e family]
+# ERROR: Please get one at http://shop.ntop.org/.
+#########################################################################
+ in: zc:ens4f1@4 out: zc:ens4f0@4
+#########################################################################
+# ERROR: You do not seem to have a valid PF_RING ZC 7.3.0.180921
+# license for ens4f1 (MAC 3C:FD:FE:C2:48:19) [Intel 10/40 Gbit i40e family]
+# ERROR: Please get one at http://shop.ntop.org/.
+#########################################################################
+#########################################################################
+# ERROR: You do not seem to have a valid PF_RING ZC 7.3.0.180921
+# license for ens4f0 (MAC 3C:FD:FE:C2:48:18) [Intel 10/40 Gbit i40e family]
+# ERROR: Please get one at http://shop.ntop.org/.
+#########################################################################
+ in: zc:ens4f1@5 out: zc:ens4f0@5
+#########################################################################
+# ERROR: You do not seem to have a valid PF_RING ZC 7.3.0.180921
+# license for ens4f1 (MAC 3C:FD:FE:C2:48:19) [Intel 10/40 Gbit i40e family]
+# ERROR: Please get one at http://shop.ntop.org/.
+#########################################################################
+#########################################################################
+# ERROR: You do not seem to have a valid PF_RING ZC 7.3.0.180921
+# license for ens4f0 (MAC 3C:FD:FE:C2:48:18) [Intel 10/40 Gbit i40e family]
+# ERROR: Please get one at http://shop.ntop.org/.
+#########################################################################
+ in: zc:ens4f1@6 out: zc:ens4f0@6
+#########################################################################
+# ERROR: You do not seem to have a valid PF_RING ZC 7.3.0.180921
+# license for ens4f1 (MAC 3C:FD:FE:C2:48:19) [Intel 10/40 Gbit i40e family]
+# ERROR: Please get one at http://shop.ntop.org/.
+#########################################################################
+#########################################################################
+# ERROR: You do not seem to have a valid PF_RING ZC 7.3.0.180921
+# license for ens4f0 (MAC 3C:FD:FE:C2:48:18) [Intel 10/40 Gbit i40e family]
+# ERROR: Please get one at http://shop.ntop.org/.
+#########################################################################
+The ZX cluster [id: 99][num consumer threads: 7] is running...
+Thread0: In_device: zc:ens4f1@0  ;  Out_device: zc:ens4f0@0
+GPUtimes: Thread11: In_device: zc:ens4f1@1  ;  Out_device: zc:ens4f0@1
+
+In _hpma
+Thread2: In_device: zc:ens4f1@2  ;  Out_device: zc:ens4f0@2
+Thread3: In_device: zc:ens4f1@3  ;  Out_device: zc:ens4f0@3
+In _hpma
+Thread4: In_device: zc:ens4f1@4  ;  Out_device: zc:ens4f0@4
+In _hpma
+Thread5: In_device: zc:ens4f1@5  ;  Out_device: zc:ens4f0@5
+Thread6: In_device: zc:ens4f1@6  ;  Out_device: zc:ens4f0@6
+In _hpma
+In _hpma
+In _hpma
+In _hpma
+==========
+Thread: 0 Now: 0 pkts (0 drops)  
+Thread: 1 Now: 0 pkts (0 drops)  
+Thread: 2 Now: 0 pkts (0 drops)  
+Thread: 3 Now: 0 pkts (0 drops)  
+Thread: 4 Now: 0 pkts (0 drops)  
+Thread: 5 Now: 0 pkts (0 drops)  
+Thread: 6 Now: 0 pkts (0 drops)  
+if_drop  = 0, droprate:0/0 (-nan) 
+ALL Throughput = 1.86993e-309
+rec_drop_total: 0
+CPUPrefilter[0]: on  speed: not yet!
+CPUPrefilter[1]: on  speed: not yet!
+CPUPrefilter[2]: on  speed: not yet!
+CPUPrefilter[3]: on  speed: not yet!
+CPUPrefilter[4]: on  speed: not yet!
+CPUPrefilter[5]: on  speed: not yet!
+CPUPrefilter[6]: off speed: not yet!
+total speed: 0
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+AllDead: 0
+countGPUthreadtimes: 0
+print_stats time: 287
+==========
+Thread: 0 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 1 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 2 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 3 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 4 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 5 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 6 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+if_drop  = 0, droprate:0/0 (-nan) 
+ALL Throughput = 0
+rec_drop_total: 0
+CPUPrefilter[0]: on  speed: not yet!
+CPUPrefilter[1]: on  speed: not yet!
+CPUPrefilter[2]: on  speed: not yet!
+CPUPrefilter[3]: on  speed: not yet!
+CPUPrefilter[4]: on  speed: not yet!
+CPUPrefilter[5]: on  speed: not yet!
+CPUPrefilter[6]: off speed: not yet!
+total speed: 0
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+AllDead: 0
+countGPUthreadtimes: 0
+print_stats time: 287
+==========
+Thread: 0 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 1 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 2 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 3 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 4 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 5 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 6 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+if_drop  = 0, droprate:0/0 (-nan) 
+ALL Throughput = 0
+rec_drop_total: 0
+CPUPrefilter[0]: on  speed: not yet!
+CPUPrefilter[1]: on  speed: not yet!
+CPUPrefilter[2]: on  speed: not yet!
+CPUPrefilter[3]: on  speed: not yet!
+CPUPrefilter[4]: on  speed: not yet!
+CPUPrefilter[5]: on  speed: not yet!
+CPUPrefilter[6]: off speed: not yet!
+total speed: 0
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+AllDead: 0
+countGPUthreadtimes: 0
+print_stats time: 387
+==========
+Thread: 0 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 1 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 2 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 3 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 4 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 5 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 6 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+if_drop  = 0, droprate:0/0 (-nan) 
+ALL Throughput = 0
+rec_drop_total: 0
+CPUPrefilter[0]: on  speed: not yet!
+CPUPrefilter[1]: on  speed: not yet!
+CPUPrefilter[2]: on  speed: not yet!
+CPUPrefilter[3]: on  speed: not yet!
+CPUPrefilter[4]: on  speed: not yet!
+CPUPrefilter[5]: on  speed: not yet!
+CPUPrefilter[6]: off speed: not yet!
+total speed: 0
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+AllDead: 0
+countGPUthreadtimes: 0
+print_stats time: 246
+==========
+Thread: 0 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 1 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 2 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 3 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 4 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 5 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 6 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+if_drop  = 0, droprate:0/0 (-nan) 
+ALL Throughput = 0
+rec_drop_total: 0
+CPUPrefilter[0]: on  speed: not yet!
+CPUPrefilter[1]: on  speed: not yet!
+CPUPrefilter[2]: on  speed: not yet!
+CPUPrefilter[3]: on  speed: not yet!
+CPUPrefilter[4]: on  speed: not yet!
+CPUPrefilter[5]: on  speed: not yet!
+CPUPrefilter[6]: off speed: not yet!
+total speed: 0
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+AllDead: 0
+countGPUthreadtimes: 0
+print_stats time: 333
+==========
+Thread: 0 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 1 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 2 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 3 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 4 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 5 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 6 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+if_drop  = 0, droprate:0/0 (-nan) 
+ALL Throughput = 0
+rec_drop_total: 0
+CPUPrefilter[0]: on  speed: not yet!
+CPUPrefilter[1]: on  speed: not yet!
+CPUPrefilter[2]: on  speed: not yet!
+CPUPrefilter[3]: on  speed: not yet!
+CPUPrefilter[4]: on  speed: not yet!
+CPUPrefilter[5]: on  speed: not yet!
+CPUPrefilter[6]: off speed: not yet!
+total speed: 0
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+AllDead: 0
+countGPUthreadtimes: 0
+print_stats time: 205
+==========
+Thread: 0 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 1 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 2 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 3 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 4 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 5 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 6 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+if_drop  = 0, droprate:0/0 (-nan) 
+ALL Throughput = 0
+rec_drop_total: 0
+CPUPrefilter[0]: on  speed: not yet!
+CPUPrefilter[1]: on  speed: not yet!
+CPUPrefilter[2]: on  speed: not yet!
+CPUPrefilter[3]: on  speed: not yet!
+CPUPrefilter[4]: on  speed: not yet!
+CPUPrefilter[5]: on  speed: not yet!
+CPUPrefilter[6]: off speed: not yet!
+total speed: 0
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+AllDead: 0
+countGPUthreadtimes: 0
+print_stats time: 334
+==========
+Thread: 0 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 1 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 2 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 3 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 4 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 5 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+Thread: 6 Now: 0 pkts (0 drops)  Throughput: 0.00 Gbps lastBytes: 0 dir[i].numBytes: 0 
+if_drop  = 0, droprate:0/0 (-nan) 
+ALL Throughput = 0
+rec_drop_total: 0
+CPUPrefilter[0]: on  speed: not yet!
+CPUPrefilter[1]: on  speed: not yet!
+CPUPrefilter[2]: on  speed: not yet!
+CPUPrefilter[3]: on  speed: not yet!
+CPUPrefilter[4]: on  speed: not yet!
+CPUPrefilter[5]: on  speed: not yet!
+CPUPrefilter[6]: off speed: not yet!
+total speed: 0
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+AllDead: 0
+countGPUthreadtimes: 0
+print_stats time: 251
+==========
+Thread: 0 Now: 80'871 pkts (1'095'298 drops)  Throughput: 0.99 Gbps lastBytes: 0 dir[i].numBytes: 123255024 
+Thread: 1 Now: 82'386 pkts (0 drops)  Throughput: 1.00 Gbps lastBytes: 0 dir[i].numBytes: 125557788 
+Thread: 2 Now: 80'499 pkts (0 drops)  Throughput: 0.98 Gbps lastBytes: 0 dir[i].numBytes: 122682000 
+Thread: 3 Now: 80'438 pkts (0 drops)  Throughput: 0.98 Gbps lastBytes: 0 dir[i].numBytes: 122590560 
+Thread: 4 Now: 81'891 pkts (0 drops)  Throughput: 1.00 Gbps lastBytes: 0 dir[i].numBytes: 124801884 
+Thread: 5 Now: 79'980 pkts (0 drops)  Throughput: 0.98 Gbps lastBytes: 0 dir[i].numBytes: 121894092 
+Thread: 6 Now: 169'976 pkts (0 drops)  Throughput: 2.07 Gbps lastBytes: 0 dir[i].numBytes: 259043424 
+if_drop  = 1095298, droprate:1.0953e+06/1.75135e+06 (0.625402) 
+ALL Throughput = 7.99859
+rec_drop_total: 1095298
+wow:0/254= 0
+CPUPrefilter[0]: on  speed: 1.12747
+CPUPrefilter[1]: on  speed: 1.12747
+CPUPrefilter[2]: on  speed: 1.12747
+CPUPrefilter[3]: on  speed: 1.12747
+CPUPrefilter[4]: on  speed: 1.12747
+CPUPrefilter[5]: on  speed: 1.12439
+CPUPrefilter[6]: off speed: 1.12439
+total speed: 7.88611
+181 | 160 | 175 | 175 | 173 | 174 | 226 | 1
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 0
+AllDead: 1258
+countGPUthreadtimes: 254
+print_stats time: 343
+==========
+Thread: 0 Now: 234'926 pkts (3'085'360 drops)  Throughput: 1.88 Gbps lastBytes: 123265692 dir[i].numBytes: 358027224 
+Thread: 1 Now: 232'076 pkts (0 drops)  Throughput: 1.82 Gbps lastBytes: 125563884 dir[i].numBytes: 353683824 
+Thread: 2 Now: 231'149 pkts (0 drops)  Throughput: 1.84 Gbps lastBytes: 122686572 dir[i].numBytes: 352271076 
+Thread: 3 Now: 230'274 pkts (0 drops)  Throughput: 1.83 Gbps lastBytes: 122596656 dir[i].numBytes: 350937576 
+Thread: 4 Now: 232'436 pkts (0 drops)  Throughput: 1.84 Gbps lastBytes: 124804932 dir[i].numBytes: 354232464 
+Thread: 5 Now: 231'227 pkts (0 drops)  Throughput: 1.84 Gbps lastBytes: 121897140 dir[i].numBytes: 352389948 
+Thread: 6 Now: 489'523 pkts (0 drops)  Throughput: 3.90 Gbps lastBytes: 259043424 dir[i].numBytes: 746033052 
+if_drop  = 1990062, droprate:1.99006e+06/3.2156e+06 (0.618878) 
+ALL Throughput = 14.9417
+rec_drop_total: 1990062
+wow:0/733= 0
+CPUPrefilter[0]: on  speed: 2.12621
+CPUPrefilter[1]: on  speed: 2.12621
+CPUPrefilter[2]: on  speed: 2.12621
+CPUPrefilter[3]: on  speed: 2.12621
+CPUPrefilter[4]: on  speed: 2.12621
+CPUPrefilter[5]: on  speed: 2.1204
+CPUPrefilter[6]: off speed: 2.1204
+total speed: 14.8718
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 0
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 0
+AllDead: 2362
+countGPUthreadtimes: 479
+print_stats time: 229
+==========
+Thread: 0 Now: 389'356 pkts (5'083'515 drops)  Throughput: 1.88 Gbps lastBytes: 358027224 dir[i].numBytes: 593383116 
+Thread: 1 Now: 383'230 pkts (0 drops)  Throughput: 1.84 Gbps lastBytes: 353683824 dir[i].numBytes: 584044044 
+Thread: 2 Now: 382'446 pkts (0 drops)  Throughput: 1.84 Gbps lastBytes: 352271076 dir[i].numBytes: 582850752 
+Thread: 3 Now: 380'077 pkts (0 drops)  Throughput: 1.83 Gbps lastBytes: 350937576 dir[i].numBytes: 579240396 
+Thread: 4 Now: 382'779 pkts (0 drops)  Throughput: 1.83 Gbps lastBytes: 354232464 dir[i].numBytes: 583356720 
+Thread: 5 Now: 379'724 pkts (0 drops)  Throughput: 1.81 Gbps lastBytes: 352389948 dir[i].numBytes: 578700900 
+Thread: 6 Now: 809'040 pkts (0 drops)  Throughput: 3.90 Gbps lastBytes: 746033052 dir[i].numBytes: 1232978484 
+if_drop  = 1998155, droprate:1.99816e+06/3.22321e+06 (0.619928) 
+ALL Throughput = 14.9358
+rec_drop_total: 1998155
+wow:0/212= 0
+CPUPrefilter[0]: on  speed: 2.12621
+CPUPrefilter[1]: on  speed: 2.12621
+CPUPrefilter[2]: on  speed: 2.12621
+CPUPrefilter[3]: on  speed: 2.12621
+CPUPrefilter[4]: on  speed: 2.12621
+CPUPrefilter[5]: on  speed: 2.1204
+CPUPrefilter[6]: off speed: 2.1204
+total speed: 14.8718
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+209 | 213 | 202 | 212 | 199 | 195 | 666 | 1
+AllDead: 2345
+countGPUthreadtimes: 479
+print_stats time: 292
+==========
+Thread: 0 Now: 543'161 pkts (7'067'262 drops)  Throughput: 1.88 Gbps lastBytes: 593386164 dir[i].numBytes: 827777364 
+Thread: 1 Now: 534'732 pkts (0 drops)  Throughput: 1.85 Gbps lastBytes: 584050140 dir[i].numBytes: 814931568 
+Thread: 2 Now: 534'999 pkts (0 drops)  Throughput: 1.86 Gbps lastBytes: 582853800 dir[i].numBytes: 815338476 
+Thread: 3 Now: 530'096 pkts (0 drops)  Throughput: 1.83 Gbps lastBytes: 579246492 dir[i].numBytes: 807866304 
+Thread: 4 Now: 534'431 pkts (0 drops)  Throughput: 1.85 Gbps lastBytes: 583362816 dir[i].numBytes: 814472844 
+Thread: 5 Now: 530'563 pkts (0 drops)  Throughput: 1.84 Gbps lastBytes: 578705472 dir[i].numBytes: 808578012 
+Thread: 6 Now: 1'126'107 pkts (0 drops)  Throughput: 3.87 Gbps lastBytes: 1232980008 dir[i].numBytes: 1716187068 
+if_drop  = 1983747, droprate:1.98375e+06/3.21115e+06 (0.617768) 
+ALL Throughput = 14.9645
+rec_drop_total: 1983747
+wow:0/692= 0
+CPUPrefilter[0]: on  speed: 2.13065
+CPUPrefilter[1]: on  speed: 2.13065
+CPUPrefilter[2]: on  speed: 2.13065
+CPUPrefilter[3]: on  speed: 2.13065
+CPUPrefilter[4]: on  speed: 2.13065
+CPUPrefilter[5]: on  speed: 2.12483
+CPUPrefilter[6]: off speed: 2.12483
+total speed: 14.9029
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 0
+AllDead: 2348
+countGPUthreadtimes: 480
+print_stats time: 251
+==========
+Thread: 0 Now: 696'755 pkts (9'049'733 drops)  Throughput: 1.87 Gbps lastBytes: 827777364 dir[i].numBytes: 1061854620 
+Thread: 1 Now: 687'706 pkts (0 drops)  Throughput: 1.87 Gbps lastBytes: 814931568 dir[i].numBytes: 1048063944 
+Thread: 2 Now: 685'917 pkts (0 drops)  Throughput: 1.84 Gbps lastBytes: 815338476 dir[i].numBytes: 1045337508 
+Thread: 3 Now: 679'520 pkts (0 drops)  Throughput: 1.82 Gbps lastBytes: 807866304 dir[i].numBytes: 1035588480 
+Thread: 4 Now: 689'145 pkts (0 drops)  Throughput: 1.89 Gbps lastBytes: 814472844 dir[i].numBytes: 1050256980 
+Thread: 5 Now: 679'592 pkts (0 drops)  Throughput: 1.82 Gbps lastBytes: 808578012 dir[i].numBytes: 1035698208 
+Thread: 6 Now: 1'444'253 pkts (0 drops)  Throughput: 3.88 Gbps lastBytes: 1716187068 dir[i].numBytes: 2201041572 
+if_drop  = 1982471, droprate:1.98247e+06/3.21127e+06 (0.617348) 
+ALL Throughput = 14.9815
+rec_drop_total: 1982471
+wow:0/171= 0
+CPUPrefilter[0]: on  speed: 2.12621
+CPUPrefilter[1]: on  speed: 2.12621
+CPUPrefilter[2]: on  speed: 2.12621
+CPUPrefilter[3]: on  speed: 2.12621
+CPUPrefilter[4]: on  speed: 2.12621
+CPUPrefilter[5]: on  speed: 2.1204
+CPUPrefilter[6]: off speed: 2.1204
+total speed: 14.8718
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 1
+294 | 330 | 331 | 297 | 341 | 289 | 671 | 0
+AllDead: 2329
+countGPUthreadtimes: 479
+print_stats time: 304
+==========
+Thread: 0 Now: 849'897 pkts (11'034'571 drops)  Throughput: 1.87 Gbps lastBytes: 1061854620 dir[i].numBytes: 1295247600 
+Thread: 1 Now: 838'046 pkts (0 drops)  Throughput: 1.83 Gbps lastBytes: 1048063944 dir[i].numBytes: 1277183628 
+Thread: 2 Now: 836'710 pkts (0 drops)  Throughput: 1.84 Gbps lastBytes: 1045337508 dir[i].numBytes: 1275147564 
+Thread: 3 Now: 829'164 pkts (0 drops)  Throughput: 1.82 Gbps lastBytes: 1035588480 dir[i].numBytes: 1263647460 
+Thread: 4 Now: 845'724 pkts (0 drops)  Throughput: 1.91 Gbps lastBytes: 1050256980 dir[i].numBytes: 1288884900 
+Thread: 5 Now: 828'586 pkts (0 drops)  Throughput: 1.82 Gbps lastBytes: 1035698208 dir[i].numBytes: 1262768112 
+Thread: 6 Now: 1'761'423 pkts (0 drops)  Throughput: 3.87 Gbps lastBytes: 2201041572 dir[i].numBytes: 2684411700 
+if_drop  = 1984838, droprate:1.98484e+06/3.21151e+06 (0.618039) 
+ALL Throughput = 14.9556
+rec_drop_total: 1984838
+wow:0/650= 0
+CPUPrefilter[0]: on  speed: 2.12621
+CPUPrefilter[1]: on  speed: 2.12621
+CPUPrefilter[2]: on  speed: 2.12621
+CPUPrefilter[3]: on  speed: 2.12621
+CPUPrefilter[4]: on  speed: 2.12621
+CPUPrefilter[5]: on  speed: 2.1204
+CPUPrefilter[6]: off speed: 2.1204
+total speed: 14.8718
+126 | 112 | 132 | 113 | 138 | 127 | 353 | 1
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 0
+AllDead: 2348
+countGPUthreadtimes: 479
+print_stats time: 363
+==========
+Thread: 0 Now: 1'002'028 pkts (13'020'832 drops)  Throughput: 1.85 Gbps lastBytes: 1295252172 dir[i].numBytes: 1527090672 
+Thread: 1 Now: 988'458 pkts (0 drops)  Throughput: 1.83 Gbps lastBytes: 1277186676 dir[i].numBytes: 1506409992 
+Thread: 2 Now: 986'474 pkts (0 drops)  Throughput: 1.83 Gbps lastBytes: 1275150612 dir[i].numBytes: 1503386376 
+Thread: 3 Now: 978'317 pkts (0 drops)  Throughput: 1.82 Gbps lastBytes: 1263650508 dir[i].numBytes: 1490955108 
+Thread: 4 Now: 1'003'297 pkts (0 drops)  Throughput: 1.92 Gbps lastBytes: 1288887948 dir[i].numBytes: 1529024628 
+Thread: 5 Now: 977'359 pkts (0 drops)  Throughput: 1.81 Gbps lastBytes: 1262771160 dir[i].numBytes: 1489495116 
+Thread: 6 Now: 2'079'437 pkts (0 drops)  Throughput: 3.88 Gbps lastBytes: 2684429988 dir[i].numBytes: 3169061988 
+if_drop  = 1986261, droprate:1.98626e+06/3.21204e+06 (0.618379) 
+ALL Throughput = 14.9448
+rec_drop_total: 1986261
+wow:0/129= 0
+CPUPrefilter[0]: on  speed: 2.12621
+CPUPrefilter[1]: on  speed: 2.12621
+CPUPrefilter[2]: on  speed: 2.12621
+CPUPrefilter[3]: on  speed: 2.12621
+CPUPrefilter[4]: on  speed: 2.12621
+CPUPrefilter[5]: on  speed: 2.1204
+CPUPrefilter[6]: off speed: 2.1204
+total speed: 14.8718
+  0 |   0 |   0 |   0 |   0 |   0 |   0 | 0
+  5 |   6 |   6 |   6 |   5 |   6 |  15 | 1
+AllDead: 2343
+countGPUthreadtimes: 479
+print_stats time: 328
